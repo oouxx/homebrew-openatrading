@@ -22,10 +22,10 @@ cask "openatrading" do
   app "OpenATrading.app"
 
   zap trash: [
-    "~/Library/Application Support/com.openatrading.app",
-    "~/Library/Caches/com.openatrading.app",
-    "~/Library/Preferences/com.openatrading.app.plist",
-    "~/Library/Saved Application State/com.openatrading.app.savedState",
-    "~/Library/WebKit/com.openatrading.app",
+    "~/Library/Application Support/com.openatrading.desktop",
+    "~/Library/Caches/com.openatrading.desktop",
+    "~/Library/Preferences/com.openatrading.desktop.plist",
+    "~/Library/Saved Application State/com.openatrading.desktop.savedState",
+    "~/Library/WebKit/com.openatrading.desktop",
   ]
 end
