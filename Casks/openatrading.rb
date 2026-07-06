@@ -3,14 +3,14 @@ cask "openatrading" do
   sha256 :no_check
 
   if Hardware::CPU.intel?
-    url "https://github.com/oouxx/openatrading/releases/download/v#{version}/openatrading_#{version}_x64.dmg"
+    url "https://github.com/oouxx/homebrew-openatrading/releases/download/v#{version}/openatrading_#{version}_x64.dmg"
   else
-    url "https://github.com/oouxx/openatrading/releases/download/v#{version}/openatrading_#{version}_aarch64.dmg"
+    url "https://github.com/oouxx/homebrew-openatrading/releases/download/v#{version}/openatrading_#{version}_aarch64.dmg"
   end
 
   name "OpenATrading"
   desc "AI-native A股短线交易决策工作台"
-  homepage "https://github.com/oouxx/openatrading"
+  homepage "https://github.com/oouxx/homebrew-openatrading"
 
   livecheck do
     url :url
