@@ -6,7 +6,7 @@ cask "openatrading" do
     sha256 :no_check
   else
     url "https://github.com/oouxx/homebrew-openatrading/releases/download/v#{version}/openatrading_#{version}_aarch64.dmg"
-    sha256 "2d19ce0ab13b2079d607a70f72c65f6a18e1c3f52de39fc1fb34b29578601cbd"
+    sha256 "133c333a4e667e67e8163a55081c1661d2c281d08134106910d6e33ce72348fc"
   end
 
   name "OpenATrading"
