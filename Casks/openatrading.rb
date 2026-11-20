@@ -1,12 +1,12 @@
 cask "openatrading" do
-  version "0.16.15"
+  version "0.16.16"
 
   if Hardware::CPU.intel?
     url "https://github.com/oouxx/homebrew-openatrading/releases/download/v#{version}/openatrading_#{version}_x64.dmg"
-    sha256 "4d50761758e2efe48246fd460e94d37060dac5698369e2ff155614d2c680b14a"
+    sha256 "670161c4c74a9bd662dce1d8a95bd872862c2a811bcdcf7b5488ccbf7e22f27f"
   else
     url "https://github.com/oouxx/homebrew-openatrading/releases/download/v#{version}/openatrading_#{version}_aarch64.dmg"
-    sha256 "d70b19eaf9ab41bb4729b18465ce3eadb2046bb006a6f2821447750081c45c80"
+    sha256 "5dd00fa8acb5079740b8c41b900e8a9f7f3071423e300b744cf410287cfbc852"
   end
 
   name "OpenATrading"
